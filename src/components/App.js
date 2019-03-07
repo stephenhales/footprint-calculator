@@ -1,11 +1,12 @@
 import React from 'react';
+import UserForm from './UserForm';
 
 class App extends React.Component {
-    render() {
-        return (
-            <div>Hello!</div>
-        );
-    }
+  render() {
+    return (
+      <UserForm/>
+    );
+  }
 }
 
 export default App;
